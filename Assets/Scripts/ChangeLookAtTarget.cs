@@ -17,6 +17,6 @@ public class ChangeLookAtTarget : MonoBehaviour {
 	void OnMouseDown () {
 		// change the target of the LookAtTarget script to be this gameobject.
 		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 5*target.transform.localScale.x;
+		Camera.main.fieldOfView = 6*target.transform.localScale.x;
 	}
 }
